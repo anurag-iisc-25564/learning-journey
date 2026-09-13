@@ -1,0 +1,25 @@
+title: "Anurag's Learning Journey"
+description: "A living log of everything I'm studying, building, and exploring."
+baseurl: "/learning-journey"
+url: "https://anurag-iisc-25564.github.io"
+
+# Author
+author:
+  name: "Anurag Anand"
+  github: "anurag-iisc-25564"
+
+# Build
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Collections & defaults
+permalink: /posts/:year/:month/:day/:title/
+
+# Exclude
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
